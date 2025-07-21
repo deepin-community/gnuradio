@@ -189,7 +189,6 @@ Description: GNU Software Defined Radio toolkit development
  Part of the main gnuradio build.
 
 Package: libgnuradio-analog3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -201,7 +200,6 @@ Description: gnuradio analog functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-audio3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -215,7 +213,6 @@ Description: gnuradio audio functions
  gnuradio build.
 
 Package: libgnuradio-blocks3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -227,7 +224,6 @@ Description: gnuradio blocks functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-channels3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -239,7 +235,6 @@ Description: gnuradio channels functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-digital3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -251,7 +246,6 @@ Description: gnuradio digital communications functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-dtv3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -263,7 +257,6 @@ Description: gnuradio digital TV signal processing blocks
  Part of the main gnuradio build.
 
 Package: libgnuradio-fec3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -276,7 +269,6 @@ Description: gnuradio forward error correction support
  Part of the main gnuradio build.
 
 Package: libgnuradio-fft3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -288,7 +280,6 @@ Description: gnuradio fast Fourier transform functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-filter3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -301,7 +292,6 @@ Description: gnuradio filter functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-iio3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: linux-any
 Pre-Depends: ${misc:Pre-Depends}
@@ -318,7 +308,6 @@ Description: IIO blocks for GnuRadio
  Part of the main gnuradio build.
 
 Package: libgnuradio-network3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -330,7 +319,6 @@ Description: gnuradio network library
  Part of the main gnuradio build.
 
 Package: libgnuradio-pdu3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -343,7 +331,6 @@ Description: gnuradio streaming protocol library
  Part of the main gnuradio build.
 
 Package: libgnuradio-pmt3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -356,7 +343,6 @@ Description: gnuradio pmt container library
  Part of the main gnuradio build.
 
 Package: libgnuradio-qtgui3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: kfreebsd-any linux-any
 Pre-Depends: ${misc:Pre-Depends}
@@ -369,7 +355,6 @@ Description: gnuradio Qt graphical user interface functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-runtime3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -381,7 +366,6 @@ Description: gnuradio core runtime
  Part of the main gnuradio build.
 
 Package: libgnuradio-soapy3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -392,7 +376,6 @@ Description: gnuradio SoapySDR support
  Part of the main gnuradio build.
 
 Package: libgnuradio-trellis3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -405,7 +388,6 @@ Description: gnuradio trellis modulation functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-uhd3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -418,7 +400,6 @@ Description: gnuradio universal hardware driver functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-video-sdl3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -430,7 +411,6 @@ Description: gnuradio video functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-vocoder3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -443,7 +423,6 @@ Description: gnuradio vocoder functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-wavelet3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -457,7 +436,6 @@ Description: gnuradio wavelet functions
  Part of the main gnuradio build.
 
 Package: libgnuradio-zeromq3.10.12
-Provides: ${t64:Provides}
 Section: libs
 Architecture: kfreebsd-any linux-any
 Pre-Depends: ${misc:Pre-Depends}
