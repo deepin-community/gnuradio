@@ -1,0 +1,7 @@
+omit-build-path
+usr-bin-examples
+example-documentation
+# update-codec2-mode-enums
+direct-freedesktop-install
+# gr-video-sdl2
+pdf-documentation
