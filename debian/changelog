@@ -1,3 +1,14 @@
+gnuradio (3.10.12.0-1deepin2) unstable; urgency=medium
+
+  * Drop unsatisfiable python3-pyqtgraph runtime dependency
+  * python3-pyqtgraph is absent from deepin 25 repositories so the hard
+    Depends made gnuradio uninstallable; it is only used by the optional
+    gr_filter_design tool, which already exits with an actionable hint
+    when the module is missing, leaving gnuradio-companion and flowgraph
+    execution unaffected
+
+ -- lichenggang <lichenggang@uniontech.com>  Thu, 08 Oct 2026 19:59:07 +0800
+
 gnuradio (3.10.12.0-1deepin1) unstable; urgency=medium
 
   * remove t64
